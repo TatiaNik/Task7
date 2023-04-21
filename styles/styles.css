@@ -8,6 +8,11 @@
     src: url(../assets/fonts/Poppins-Regular.ttf);
     src: url(../assets/fonts/Poppins-Bold.ttf)
 }
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
 
 body {
     margin: 0;
@@ -44,17 +49,118 @@ button {
     padding: 21px 35px 22px;
     color: white;
     margin-left: 40px;
+    border: none;
 }
 
 .slogan {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 157.5px;
+    margin-top: 157.5px;
+}
+
+span {
+    font-size: 18px;
 }
 
 h1 {
     font-family: Poppins;
     font-size: 40px;
     font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 350px;
+}
+
+.box {
+    max-width: 386px;
+    background-color: #F4F4F4;
+    padding: 58px 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    text-align: center; 
+    color: #7D7D7D;
+    font-size: 17px;
+    margin: 0px;
+    line-height: 26px;
+  }
+
+.box span {
+    color: #6B77E5;
+    margin-top: 37px;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.banner {
+    position: relative;
+    background-image: url(../assets/images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 557px;
+    margin-top: 35px;
+  }
+  
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 221, 182, 0.75);
+    backdrop-filter: blur(7px);
+  }
+  
+.presentation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.presentation p {
+    color: #37393F;
+    max-width: 511px;
+  }
+
+.playbutton {
+    margin-top: 47px;
+  }
+
+.ftslogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 155px;
+  }
+
+.namebox {
+    position: absolute;
+    transform: translate(23px, -140px);
+    background-color: #FFFFFF;
+    width: 341px;
+    height: 114px;
+    padding: 0px 74.5px;
+    text-align: center;
+}
+
+.namebox h4 {
+    font-family: Poppins-regular;
+    font-size: 23px;
+    margin-bottom: 4px;
+}
+
+.namebox span {
+    color: #7D7D7D;
 }
